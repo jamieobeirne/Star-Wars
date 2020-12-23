@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <title>Jamie O'Beirne PEC3 M4.253</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <section class="page">
+    <header class="header">
+      <div class="header__logo">
+        <img src="assets/sw-logo.png" />
+        <span class="header__subtitle">Movie Database</span>
+      </div>
+      <div class="header__filter"></div>
+      <div class="header__wishlist"></div>
+    </header>
+    <aside class="sidebar">
+      <h3 class="sidebar__title">Filter by</h3>
+
+      <div class="sidebar__form form">
+        <div class="form__input">
+          <label for="movie">Movie</label>
+          <select id="select-movie" name="movie"></select>
+        </div>
+        <div class="form__input">
+          <label for="homeworld">Homeworld</label>
+          <select id="select-homeworld" name="homeworld"> </select>
+        </div>
+      </div>
+    </aside>
+    <main id="main">
+      <div id="movie-header" class="movie">
+        <h2 class="movie__title">A New Hope</h2>
+        <h4 class="movie__info">Episode 4 - 1977</h4>
+        <p class="movie__director">Director: George Lucas</p>
+      </div>
+
+      <div class="list__wrapper">
+        <ul class="list list__characters">
+
+          <li class="list__item item character">
+            <img src="assets/user.svg" class="character__image" />
+            <h2 class="character__name">Luke Skywalker</h2>
+            <div class="character__birth"><strong>Birth Year:</strong> 19 BBY</div>
+            <div class="character__eye"><strong>Eye color:</strong> Blue</div>
+            <div class="character__gender"><strong>Gender:</strong> Male</div>
+            <div class="character__home"><strong>Home World:</strong> Tatooine</div>
+          </li>
+
+
+        </ul>
+
+
+
+
+
+
+      </div>
+    </main>
+  </section>
+  <script src="./index.js"></script>
+  <script src="./pec3/pec3.js"></script>
+</body>
+
+</html>
